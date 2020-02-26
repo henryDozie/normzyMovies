@@ -1,0 +1,64 @@
+body{
+  background: url('./images/DP.jpg');
+}
+
+header{
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  font-family: 'Akronim', sans-serif;
+  font-size: 3em;
+  color: red;
+}
+.movies{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 1vw;
+}
+
+img{
+  transition: 0.5s;
+}
+img:hover{
+  transform: scale(1.05);
+}
+
+.movieCard{
+  color: red;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 0.5em;
+  font-family: 'Simonetta', sans-serif;
+}
+
+.form{
+  margin: 5vh auto;
+  /* border: 1px solid red; */
+  width: 70vw;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+}
+
+form{
+
+}
+
+input{
+  width: 80vh;
+  border: 3px solid red;
+  border-radius: 0.5em;
+  margin-right: 0.5vw;
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Simonetta', sans-serif;
+}
+
+button{
+  width: 10vw;
+  border: 3px solid red;
+  border-radius: 1.5em;
+
+}
